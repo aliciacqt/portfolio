@@ -1,0 +1,24 @@
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+
+  li {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    width: 5em;
+    list-style: none;
+    border-radius: 0.25rem;
+    color: var(--dark-primary-color);
+  }
+
+  li.tech-label {
+    background-color: var(--bright-secondary-color);
+    // color: var(--light-secondary-color);
+  }
+
+  li.tool-label {
+    background-color: var(--light-secondary-color);
+    // color: var(--bright-secondary-color);
+  }
+}

@@ -1,36 +1,17 @@
-import Counter from "../components/Counter";
-import logo from "../assets/logo.svg";
-
 export default function Home() {
   return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>Hello Vite + React !</p>
-
-      <Counter />
-
+    <>
+      <h2>Développeuse web et web mobile</h2>
       <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie
+        tellus vitae rutrum gravida. Mauris a blandit ligula. Nunc cursus
+        interdum ex id lacinia. Donec non nulla risus. Maecenas venenatis
+        vestibulum vestibulum. Duis feugiat urna eu magna pellentesque lacinia.
+        Quisque faucibus quis quam ac facilisis. Aenean in risus non eros
+        tristique rhoncus. Aenean quam metus, dictum ac ligula sit amet, dapibus
+        porta augue. Nullam lobortis mi et ex efficitur pellentesque. Nulla ut
+        lacus maximus, ornare leo ac, faucibus nisi.
       </p>
-      <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {" | "}
-        <a
-          className="App-link"
-          href="https://vitejs.dev/guide/features.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vite Docs
-        </a>
-      </p>
-    </header>
+    </>
   );
 }
