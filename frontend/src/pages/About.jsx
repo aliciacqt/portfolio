@@ -28,7 +28,7 @@ export default function About() {
   return (
     <>
       <h2>À propos</h2>
-      <p>
+      <p className="p-about">
         Au cours de 5 mois de formation intense, j'ai pu aquérir de solides
         connaissances et pratiquer sur tous les outils suivants :
       </p>

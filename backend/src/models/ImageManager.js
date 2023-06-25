@@ -17,7 +17,7 @@ class ImageManager extends AbstractManager {
 
   findImagesByProject(id) {
     return this.database.query(
-      `SELECT d.device_name AS deviceName, pi.id, pi.image
+      `SELECT p.title, d.device_name AS deviceName, pi.id, pi.image
       FROM ${this.table} AS pi 
       JOIN project AS p ON pi.project_id = p.id 
       JOIN device AS d ON d.id = pi.device_id  

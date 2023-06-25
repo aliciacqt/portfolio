@@ -79,17 +79,17 @@ INSERT INTO
 VALUES
   (
     'To Do List',
-    'description du projet, story telling',
+    'Premier projet en groupe dans le cadre de ma formation à la Wild Code School, nous avons travaillé à 4 sur une appli To Do List en JavaScript vanilla. À partir d\'une maquette Figma réalisée ensemble et d\'un brainstorming, nous avons développé les fonctionnalités qui nous paraissaient intéressantes dans une to do list : création d\'une tâche, suivi de son évolution, date butoir, possibilité de supprimer la tâche à tout moment. Ce projet s\'est déroulé sur 3 semaines.',
     'https://github.com/MarionbDev/Projet-1-TodoList'
   ),
   (
     'Star Treker',
-    'description du projet, story telling',
+    'Projet permettant de mettre en application les apprentissages autour de React et de l\'appel à une API. En groupe de 4, et pedant 5 semaines, nous avons mis en place une application web de déplacement interstellaire. Visualisation de la Voie Lactée, affichage de toutes les planètes visitables avec leurs caractéristiques techniques. Ici, un mélange d\'informations fictives (visuels et positionnement des planètes) et réelles (appel d\'une API de la Nasa pour les descriptions scientifiques)',
     'https://github.com/WildCodeSchool/2023-02-JS-LaLoupe-StarTreker'
   ),
   (
     'Jollydays',
-    'description du projet, story telling',
+    'Lors de ce hackaton interne à la Wild Code School sur le thème du voyage, en groupe de 5, nous avons élaboré un blog de voyage destiné à un client qui baroudeur. Le défi ici était de réaliser une application front-end, avec appel à une API, en moins de 48h !',
     'https://github.com/aliciacqt/hackathon1'
   );
 

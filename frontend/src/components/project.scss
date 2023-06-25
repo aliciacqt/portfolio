@@ -1,4 +1,4 @@
-p.project-description {
+.App p.project-description {
   a {
     color: var(--bright-secondary-color);
     text-decoration: underline;
@@ -9,19 +9,20 @@ p.project-description {
     text-decoration: none;
     color: var(--bright-secondary-color);
   }
+
+  @media screen and (min-width: 768px) {
+    width: 80%;
+  }
 }
 
 section.img-container {
   display: flex;
   flex-direction: column;
-  // height: 70vh;
   margin-bottom: 2rem;
 
   @media screen and (min-width: 1024px) {
     flex-direction: row;
     flex-wrap: wrap;
-    // justify-content: space-around;
-    // align-items: center;
   }
 
   img.screenshot {
@@ -37,8 +38,7 @@ section.img-container {
   }
 
   img.desktop {
-    // width: 85%;
-    display: none;
+    width: 85%;
 
     @media screen and (min-width: 1024px) {
       width: 40%;

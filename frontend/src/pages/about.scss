@@ -1,3 +1,15 @@
+.p-about {
+  padding-top: 3rem;
+  letter-spacing: 0.04rem;
+  line-height: 2.5rem;
+
+  @media screen and (min-width: 1024px) {
+    line-height: 2rem;
+    max-width: 60%;
+    margin-left: 20%;
+  }
+}
+
 ol {
   display: flex;
   flex-wrap: wrap;
@@ -14,11 +26,9 @@ ol {
 
   li.tech-label {
     background-color: var(--bright-secondary-color);
-    // color: var(--light-secondary-color);
   }
 
   li.tool-label {
     background-color: var(--light-secondary-color);
-    // color: var(--bright-secondary-color);
   }
 }
