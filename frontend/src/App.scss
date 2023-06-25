@@ -25,22 +25,23 @@
   //   sans-serif;
 }
 
-body {
-  overflow: hidden;
-}
+// body {
+// overflow: hidden;
+// }
 
 .App {
   text-align: center;
-  height: 100vh;
+  // height: 100vh;
   font-family: var(--regular-font);
   font-size: calc(12px + 2vmin);
+  font-weight: 600;
 
   @media screen and (min-width: 1024px) {
     font-size: calc(16px + 2vmin);
   }
 
   img.background {
-    position: absolute;
+    position: fixed;
     z-index: -1;
   }
 
@@ -84,6 +85,7 @@ body {
       li {
         padding: 0.5rem;
         border-radius: 0.25rem;
+        letter-spacing: 0.02rem;
       }
 
       li:hover {
@@ -110,11 +112,6 @@ body {
     }
   }
 
-  .App-element {
-    height: calc(90vh);
-    background-color: red;
-  }
-
   h2 {
     padding: 0.5rem 1rem;
     color: var(--bright-secondary-color);
@@ -139,11 +136,24 @@ body {
     padding: 1rem;
     color: var(--light-secondary-color);
     text-align: left;
-    letter-spacing: 0.02rem;
     line-height: 1.5rem;
+    letter-spacing: 0.02rem;
 
     @media screen and (min-width: 1024px) {
       line-height: 2rem;
+      max-width: 60%;
+      margin-left: 20%;
+    }
+  }
+
+  .p-home {
+    padding-top: 3rem;
+    letter-spacing: 0.04rem;
+    line-height: 2.5rem;
+
+    span {
+      margin: 0 1rem;
+      color: var(--bright-secondary-color);
     }
   }
 }

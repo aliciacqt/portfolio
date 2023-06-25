@@ -1,0 +1,12 @@
+p.contact-page {
+  a {
+    color: var(--bright-secondary-color);
+    text-decoration: underline;
+  }
+
+  a:hover,
+  a:visited {
+    text-decoration: none;
+    color: var(--bright-secondary-color);
+  }
+}
