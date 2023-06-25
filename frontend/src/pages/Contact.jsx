@@ -5,6 +5,10 @@ export default function Contact() {
     <>
       <h2>Contactez-moi</h2>
       <p className="contact-page">
+        Vous pouvez consulter{" "}
+        <a href="/src/assets/CV_2023-06_Alicia_Coquérant.pdf">mon CV ici</a>.
+      </p>
+      <p className="contact-page">
         Restons en contact grâce à{" "}
         <a href="https://www.linkedin.com/in/alicia-coqu%C3%A9rant-90a06560/">
           LinkedIn
