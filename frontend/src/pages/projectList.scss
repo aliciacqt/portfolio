@@ -1,0 +1,26 @@
+ol.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+  a {
+    margin: 0.3rem;
+    border-radius: 4px;
+    width: 50%;
+
+    li.project {
+      padding: 0.5rem;
+      width: 100%;
+      list-style: none;
+      font-size: calc(12px + 2vmin);
+      color: var(--light-secondary-color);
+      letter-spacing: 0.1rem;
+    }
+
+    li.project:hover {
+      color: var(--dark-primary-color);
+      background-color: var(--light-primary-color);
+    }
+  }
+}

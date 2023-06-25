@@ -1,0 +1,34 @@
+.p-about {
+  padding-top: 3rem;
+  letter-spacing: 0.04rem;
+  line-height: 2.5rem;
+
+  @media screen and (min-width: 1024px) {
+    line-height: 2rem;
+    max-width: 60%;
+    margin-left: 20%;
+  }
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+
+  li {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    width: 5em;
+    list-style: none;
+    border-radius: 0.25rem;
+    color: var(--dark-primary-color);
+  }
+
+  li.tech-label {
+    background-color: var(--bright-secondary-color);
+  }
+
+  li.tool-label {
+    background-color: var(--light-secondary-color);
+  }
+}
