@@ -1,17 +1,20 @@
 import PropTypes from "prop-types";
+import dataProjects from "../data/projectsAPI";
 
-export default function ProjectImage({ image, title, deviceName }) {
+export default function ProjectImage({ ...screenshot }) {
   return (
     <img
-      src={image}
-      alt={`${title} screenshot`}
-      className={`${deviceName} screenshot`}
+      src={screenshot.url}
+      alt={`${dataProjects.title} screenshot`}
+      className={`${screenshot.device} screenshot`}
     />
   );
 }
 
+ProjectImage.defaultProps = {
+  screenshot: "",
+};
+
 ProjectImage.propTypes = {
-  image: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  deviceName: PropTypes.string.isRequired,
+  screenshot: PropTypes.string,
 };

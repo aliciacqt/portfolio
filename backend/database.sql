@@ -113,122 +113,122 @@ INSERT INTO
   `projectimage` (`image`, `device_id`, `project_id`)
 VALUES
   (
-    '/src/assets/img/1-To Do List/1_mobile1.png',
+    '1-To Do List/1_mobile1.png',
     '1',
     '1'
   ),
   (
-    '/src/assets/img/1-To Do List/1_mobile2.png',
+    '1-To Do List/1_mobile2.png',
     '1',
     '1'
   ),
   (
-    '/src/assets/img/1-To Do List/1_mobile3.png',
+    '1-To Do List/1_mobile3.png',
     '1',
     '1'
   ),
   (
-    '/src/assets/img/1-To Do List/1_mobile4.png',
+    '1-To Do List/1_mobile4.png',
     '1',
     '1'
   ),
   (
-    '/src/assets/img/1-To Do List/1_desktop1.png',
+    '1-To Do List/1_desktop1.png',
     '2',
     '1'
   ),
   (
-    '/src/assets/img/1-To Do List/1_desktop2.png',
+    '1-To Do List/1_desktop2.png',
     '2',
     '1'
   ),
   (
-    '/src/assets/img/1-To Do List/1_desktop3.png',
+    '1-To Do List/1_desktop3.png',
     '2',
     '1'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_mobile1.png',
+    '2-Star Treker/2_mobile1.png',
     '1',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_mobile2.png',
+    '2-Star Treker/2_mobile2.png',
     '1',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_mobile3.png',
+    '2-Star Treker/2_mobile3.png',
     '1',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_mobile4.png',
+    '2-Star Treker/2_mobile4.png',
     '1',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_desktop1.png',
+    '2-Star Treker/2_desktop1.png',
     '2',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_desktop2.png',
+    '2-Star Treker/2_desktop2.png',
     '2',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_desktop3.png',
+    '2-Star Treker/2_desktop3.png',
     '2',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_desktop4.png',
+    '2-Star Treker/2_desktop4.png',
     '2',
     '2'
   ),
   (
-    '/src/assets/img/2-Star Treker/2_desktop5.png',
+    '2-Star Treker/2_desktop5.png',
     '2',
     '2'
   ),
   (
-    '/src/assets/img/3-Jollydays/3_mobile1.png',
-    '1',
-    '3'
-  ),
-  (
-    '/src/assets/img/3-Jollydays/3_mobile2.png',
+    '3-Jollydays/3_mobile1.png',
     '1',
     '3'
   ),
   (
-    '/src/assets/img/3-Jollydays/3_mobile3.png',
+    '3-Jollydays/3_mobile2.png',
     '1',
     '3'
   ),
   (
-    '/src/assets/img/3-Jollydays/3_mobile4.png',
+    '3-Jollydays/3_mobile3.png',
     '1',
     '3'
   ),
   (
-    '/src/assets/img/3-Jollydays/3_desktop1.png',
+    '3-Jollydays/3_mobile4.png',
+    '1',
+    '3'
+  ),
+  (
+    '3-Jollydays/3_desktop1.png',
     '2',
     '3'
   ),
   (
-    '/src/assets/img/3-Jollydays/3_desktop2.png',
+    '3-Jollydays/3_desktop2.png',
     '2',
     '3'
   ),
   (
-    '/src/assets/img/3-Jollydays/3_desktop3.png',
+    '3-Jollydays/3_desktop3.png',
     '2',
     '3'
   ),
   (
-    '/src/assets/img/3-Jollydays/3_desktop4.png',
+    '3-Jollydays/3_desktop4.png',
     '2',
     '3'
   );
