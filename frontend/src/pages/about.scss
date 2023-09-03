@@ -10,7 +10,8 @@
   }
 }
 
-ol {
+ol.tech-section,
+ol.tool-section {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
@@ -28,7 +29,18 @@ ol {
     background-color: var(--bright-secondary-color);
   }
 
+  li.project {
+    width: 11em;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0.6rem;
+  }
+
   li.tool-label {
     background-color: var(--light-secondary-color);
   }
+}
+
+ol.project {
+  padding: 0;
 }
