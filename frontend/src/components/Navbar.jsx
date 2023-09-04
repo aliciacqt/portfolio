@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <ul className="navbar">
       <Link to="/about">
-        <li>à propos</li>
+        <li>stack</li>
       </Link>
       <Link to="/projects">
         <li>projets</li>
