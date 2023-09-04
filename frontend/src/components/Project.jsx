@@ -37,6 +37,15 @@ export default function Project() {
         <a href={dataProjects[id].link}>dépôt GitHub du projet</a>, ou continuez
         à parcourir cette page.
       </p>
+      <p className="project-description">
+        <ol className="project tech-section">
+          {dataProjects[id].roles.map((role) => (
+            <li className="project tech-label" key={`role-${role}`}>
+              {role}
+            </li>
+          ))}
+        </ol>
+      </p>
       <section className="img-container">
         {dataProjects[id].screenshots.map((screenshot) => (
           <ProjectImage {...screenshot} key={`image-${screenshot.id}`} />
