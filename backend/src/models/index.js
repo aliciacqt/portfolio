@@ -27,28 +27,6 @@ pool.getConnection().catch(() => {
 
 // declare and fill models: that's where you should register your own managers
 
-const models = {};
-
-const ProjectManager = require("./ProjectManager");
-
-models.project = new ProjectManager();
-models.project.setDatabase(pool);
-
-const ImageManager = require("./ImageManager");
-
-models.image = new ImageManager();
-models.image.setDatabase(pool);
-
-const TechnoManager = require("./TechnoManager");
-
-models.techno = new TechnoManager();
-models.techno.setDatabase(pool);
-
-const ToolManager = require("./ToolManager");
-
-models.tool = new ToolManager();
-models.tool.setDatabase(pool);
-
 // bonus: use a proxy to personalize error message,
 // when asking for a non existing model
 
@@ -69,4 +47,4 @@ const handler = {
   },
 };
 
-module.exports = new Proxy(models, handler);
+module.exports = new Proxy(handler);
