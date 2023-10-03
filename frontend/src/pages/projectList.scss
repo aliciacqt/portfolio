@@ -1,4 +1,4 @@
-ol.projects-section {
+.projects-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@ ol.projects-section {
     border-radius: 4px;
     width: 50%;
 
-    li.project {
+    .project {
       padding: 0.5rem;
       width: 100%;
       list-style: none;
@@ -18,7 +18,7 @@ ol.projects-section {
       letter-spacing: 0.1rem;
     }
 
-    li.project:hover {
+    .project:hover {
       color: var(--dark-primary-color);
       background-color: var(--light-primary-color);
     }

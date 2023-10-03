@@ -1,5 +1,5 @@
 import "./contact.scss";
-import myCV from "../assets/CV_2023-07_Alicia_Coquérant.pdf";
+import myCV from "../assets/CV_Alicia_Coquérant.pdf";
 
 export default function Contact() {
   return (
