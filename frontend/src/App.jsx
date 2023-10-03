@@ -29,22 +29,24 @@ function App() {
             <Link to="/">Alicia Coquérant</Link>
           </h1>
         </header>
-        <Routes>
-          <Route path="/" element={<Home />} className="App-element" />
-          <Route path="/about" element={<About className="App-element" />} />
-          <Route
-            path="/projects"
-            element={<ProjectList className="App-element" />}
-          />
-          <Route
-            path="/projects/:id"
-            element={<Project className="Project-element" />}
-          />
-          <Route
-            path="/contact"
-            element={<Contact className="App-element" />}
-          />
-        </Routes>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} className="App-element" />
+            <Route path="/about" element={<About className="App-element" />} />
+            <Route
+              path="/projects"
+              element={<ProjectList className="App-element" />}
+            />
+            <Route
+              path="/projects/:id"
+              element={<Project className="Project-element" />}
+            />
+            <Route
+              path="/contact"
+              element={<Contact className="App-element" />}
+            />
+          </Routes>
+        </main>
       </div>
     </Router>
   );

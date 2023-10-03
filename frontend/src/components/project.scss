@@ -1,4 +1,4 @@
-.App p.project-description {
+.App .project-description {
   a {
     color: var(--bright-secondary-color);
     text-decoration: underline;
@@ -15,7 +15,7 @@
   }
 }
 
-section.img-container {
+.img-container {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -25,7 +25,7 @@ section.img-container {
     flex-wrap: wrap;
   }
 
-  img.screenshot {
+  .screenshot {
     margin: 2rem auto;
   }
 
@@ -37,7 +37,7 @@ section.img-container {
     }
   }
 
-  img.desktop {
+  .desktop {
     width: 85%;
 
     @media screen and (min-width: 1024px) {
