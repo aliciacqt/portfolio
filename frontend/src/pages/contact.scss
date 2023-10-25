@@ -1,11 +1,11 @@
 .contact-page {
-  a {
+  .contact-link {
     color: var(--bright-secondary-color);
     text-decoration: underline;
   }
 
-  a:hover,
-  a:visited {
+  .contact-link:visited,
+  .contact-link:hover {
     text-decoration: none;
     color: var(--bright-secondary-color);
   }

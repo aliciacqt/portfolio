@@ -5,8 +5,6 @@
 
   @media screen and (min-width: 1024px) {
     line-height: 2rem;
-    max-width: 60%;
-    margin-left: 20%;
   }
 }
 
@@ -38,6 +36,15 @@
 
   .tool-label {
     background-color: var(--light-secondary-color);
+  }
+}
+
+.p-about,
+h3,
+.tech-tool-stack-page {
+  @media screen and (min-width: 1024px) {
+    max-width: 60%;
+    margin-left: 20%;
   }
 }
 
