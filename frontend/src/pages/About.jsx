@@ -23,7 +23,7 @@ export default function About() {
         connaissances et pratiquer sur tous les outils suivants :
       </p>
       <h3>Stack technique</h3>
-      <ol className="tech-section">
+      <ol className="tech-section tech-tool-stack-page">
         {technos.map((tech) => (
           <li className="tech-label" key={`tech-${tech}`}>
             {tech}
@@ -31,7 +31,7 @@ export default function About() {
         ))}
       </ol>
       <h3>Outils de développement et gestion</h3>
-      <ol className="tool-section">
+      <ol className="tool-section tech-tool-stack-page">
         {tools.map((tool) => (
           <li className="tool-label" key={`tool-${tool}`}>
             {tool}
