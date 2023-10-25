@@ -8,9 +8,15 @@ export default function ProjectList() {
       <h2>Projets</h2>
       <ol className="projects-section">
         {dataProjects.map((project) => (
-          <Link to={`/projects/${project.id}`} key={`project-${project.id}`}>
-            <li className="project">{project.title}</li>
-          </Link>
+          <li className="project-title">
+            <Link
+              to={`/projects/${project.id}`}
+              key={`project-${project.id}`}
+              className="project-link"
+            >
+              {project.title}
+            </Link>
+          </li>
         ))}
       </ol>
     </>
